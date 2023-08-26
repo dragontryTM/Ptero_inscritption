@@ -23,7 +23,7 @@ const commands = [
 const clientId = 'APPLICATION_ID'; // Remplacez par l'ID de votre application
 const guildId = 'YOUR_GUILD'; // Remplacez par l'ID de votre serveur
 
-const rest = new REST({ version: '9' }).setToken('MTEzOTU1MzI2Njk2Mzg0NTE2MQ.GX1HUj.jLqmkjFbSIi8TyIB6Y7XXAbL7pPLv71QUhwwy8'); // Remplacez par votre token de bot
+const rest = new REST({ version: '9' }).setToken('YOUR_TOKEN'); // Remplacez par votre token de bot
 
 (async () => {
   try {
